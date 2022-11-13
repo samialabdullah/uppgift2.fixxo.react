@@ -5,17 +5,6 @@ import { currencyFormater } from '../utilities/currencyFormatter'
 
 const ProductCard = ({product}) => {
   
-    // const addToWishList = (e) => {
-    //     console.log(`added to wish list`)
-    // }
-
-    // const addToCompare = (e) => {
-    //     console.log("added to compare")
-    // }
-
-    // const addToCart = (e) => {
-    //     console.log("added to shopping cart")
-    // }
     const { incrementQuantity } = useShoppingCart()
   
     return (
