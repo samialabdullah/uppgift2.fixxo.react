@@ -10,7 +10,6 @@ const ContactsSight = () => {
 
   window.top.document.title = 'Contacts | Fixxo.'
 
-
   return (
     <>
       <MainMenuPart />
