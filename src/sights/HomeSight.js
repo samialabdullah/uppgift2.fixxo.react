@@ -8,9 +8,9 @@ import BannersPart from '../Parts/BannersPart'
 import CategoryRightPart from '../Parts/CategoryRightPart'
 import CategoryLeftPart from '../Parts/CategoryLeftPart'
 import CompanyServicePart from '../Parts/CompanyServicePart'
-import CustomerService from "../assets/images/customer-service-icon.svg";
-import CustomerSecurePayment from "../assets/images/secured-payment-icon.svg";
-import CustomerDelivery from "../assets/images/delivery-truck-icon.svg";
+import CustomerService from "../assets/images/customer-service.svg";
+import CustomerSecurePayment from "../assets/images/secured-payment.svg";
+import CustomerDelivery from "../assets/images/delivery-truck.svg";
 import { FeaturedProductsContext, TopProductsContext, LeftProductsContext } from '../contexts/ProductContexts'
 
 
