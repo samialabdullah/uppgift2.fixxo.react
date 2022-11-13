@@ -3,7 +3,7 @@ import FooterPart from '../Parts/FooterPart'
 import MainMenuPart from '../Parts/MainMenuPart'
 import ProductGridPart from '../Parts/ProductGridPart'
 import BreadcrumbPart from '../Parts/BreadcrumbPart'
-import { ProductContext } from '../contexts/contexts'
+import { ProductContext } from '../contexts/ProductContexts'
 
 
 

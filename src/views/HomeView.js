@@ -3,7 +3,7 @@ import FooterPart from '../Parts/FooterPart'
 import MainMenuPart from '../Parts/MainMenuPart'
 import ShowCasePart from '../Parts/ShowCasePart'
 import ProductGridPart from '../Parts/ProductGridPart'
-import { ProductContext } from '../contexts/contexts'
+import { ProductContexts } from '../contexts/ProductContexts'
 import BannersPart from '../Parts/BannersPart'
 import CategoryRightPart from '../Parts/CategoryRightPart'
 import CategoryLeftPart from '../Parts/CategoryLeftPart'
@@ -11,7 +11,7 @@ import CompanyServicePart from '../Parts/CompanyServicePart'
 import CustomerService from "../assets/images/customer-service-icon.svg";
 import CustomerSecurePayment from "../assets/images/secured-payment-icon.svg";
 import CustomerDelivery from "../assets/images/delivery-truck-icon.svg";
-import { FeaturedProductsContext, TopProductsContext, LeftProductsContext } from '../contexts/contexts'
+import { FeaturedProductsContext, TopProductsContext, LeftProductsContext } from '../contexts/ProductContexts'
 
 
 const HomeView = () => {
