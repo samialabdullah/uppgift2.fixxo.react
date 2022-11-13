@@ -1,4 +1,5 @@
 .mainmenu {
+    background: $linear-gradient-dark;
     display: grid;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -87,7 +88,7 @@
         }
         button {
             border: none;
-            background-color: white;
+            background-color: $linear-gradient-dark;
         }
     }
 }
