@@ -13,7 +13,7 @@ import CompareSight from './sights/CompareSight';
 import WishListSight from './sights/WishListSight';
 import ShoppingCartSight from './sights/ShoppingCartSight';
 import NotFoundSight from './sights/NotFoundSight';
-import { ProductContext, FeaturedProductsContext, TopProductsContext, LeftProductsContext } from './contexts/ProductContexts';
+import { ProductContext, FeaturedProductsContext, ThreeContext, FourContext } from './contexts/ProductContexts';
 
 
 function App() {
@@ -57,8 +57,8 @@ function App() {
     <ShoppingCartProvider>
       <ProductContext.Provider value={products}>
       <FeaturedProductsContext.Provider value={featured}>
-      <TopProductsContext.Provider value={topProducts}>
-      <LeftProductsContext.Provider value={leftProducts}>
+      <ThreeContext.Provider value={topProducts}>
+      <FourContext.Provider value={leftProducts}>
       <Routes>
         <Route path="/" element={<HomeSight />} />
         <Route path="/categories" element={<CategoriesSight />} />
@@ -72,8 +72,8 @@ function App() {
 
         <Route path="*" element={<NotFoundSight />} />
       </Routes>
-      </LeftProductsContext.Provider>
-      </TopProductsContext.Provider>
+      </FourContext.Provider>
+      </ThreeContext.Provider>
       </FeaturedProductsContext.Provider>
       </ProductContext.Provider>
       </ShoppingCartProvider>

@@ -1,12 +1,12 @@
 import React from 'react'
 import ProductCard from '../components/ProductCard'
 
-const CategoryRightPart = ({product = []}) => {
+const CategoryThreePart = ({product = []}) => {
   return (
 
-    <section className="flash-right-grid">
+    <section className="flash-Three-grid">
       <div className="container">
-            <div className='flash-right-box'>
+            <div className='flash-Three-box'>
                 <p className='flash-title'>2 FOR USD $29</p>
                 <button type='button' className='btn-white'>FLASE SALE</button>
             </div>
@@ -20,4 +20,4 @@ const CategoryRightPart = ({product = []}) => {
   )
 }
 
-export default CategoryRightPart
+export default CategoryThreePart
