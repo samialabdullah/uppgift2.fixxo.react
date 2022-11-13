@@ -1,7 +1,7 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
-import RightImage from '../assets/images/img-1.svg'
-import LeftImage from '../assets/images/img-2.svg'
+import RightImage from '../assets/images/showcase-img-2.png'
+import LeftImage from '../assets/images/showcase-img-1.png'
 
 const ShowCasePart = () => {
   return (
