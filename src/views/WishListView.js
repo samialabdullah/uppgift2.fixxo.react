@@ -1,12 +1,12 @@
 import React from 'react'
-import FooterSection from '../sections/FooterSection'
-import MainMenuSection from '../sections/MainMenuSection'
+import FooterPart from '../Parts/FooterPart'
+import MainMenuPart from '../Parts/MainMenuPart'
 
 const WishListView = () => {
   return (
     <>
-      <MainMenuSection />
-      <FooterSection />
+      <MainMenuPart />
+      <FooterPart />
     </>
   )
 }

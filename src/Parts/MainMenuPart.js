@@ -5,7 +5,7 @@ import { useShoppingCart } from '../contexts/ShoppingCartContext'
 
 
 
-const MainMenuSection = () => {
+const MainMenuPart = () => {
   const [showMenu, setShowMenu] = useState(false)            
   const { cartQuantity } = useShoppingCart()
 
@@ -47,4 +47,4 @@ const MainMenuSection = () => {
   )
 }
 
-export default MainMenuSection
+export default MainMenuPart

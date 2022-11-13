@@ -1,6 +1,6 @@
 import React from 'react'
 
-const MapSection = () => {
+const MapPart = () => {
   return (
         <iframe 
          className= "google-map"
@@ -13,4 +13,4 @@ const MapSection = () => {
   )
 }
 
-export default MapSection
+export default MapPart

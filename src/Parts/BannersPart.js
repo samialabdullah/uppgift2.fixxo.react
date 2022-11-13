@@ -3,7 +3,7 @@ import LeftImage from '../assets/images/img-3.svg';
 import RightImage from '../assets/images/img-4.svg'
 
 
-const BannersSection = () => {
+const BannersPart = () => {
     return (
     
         <div className="container-fluid pamela-reif-lets-be-conscious">
@@ -31,4 +31,4 @@ const BannersSection = () => {
   
 }
 
-export default BannersSection
+export default BannersPart

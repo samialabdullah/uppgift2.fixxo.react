@@ -2,7 +2,7 @@ import React from 'react'
 import ProductCard from '../components/ProductCard'
 
 
-const ProductGridSection = ({title, product = []}) => {
+const ProductGridPart = ({title, product = []}) => {
 
   return (
     <section className="product-grid">
@@ -18,4 +18,4 @@ const ProductGridSection = ({title, product = []}) => {
   )
 }
 
-export default ProductGridSection
+export default ProductGridPart

@@ -1,7 +1,7 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 
-const BreadcrumbSection = ({currentPage}) => {
+const BreadcrumbPart = ({currentPage}) => {
   return (
     <section className="breadcrumb">
         <div className="container">
@@ -16,4 +16,4 @@ const BreadcrumbSection = ({currentPage}) => {
   )
 }
 
-export default BreadcrumbSection
+export default BreadcrumbPart

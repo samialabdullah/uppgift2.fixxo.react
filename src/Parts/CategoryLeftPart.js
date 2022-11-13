@@ -1,7 +1,7 @@
 import React from 'react'
 import ProductCard from '../components/ProductCard'
 
-const CategoryLeftSection = ({product = []}) => {
+const CategoryLeftPart = ({product = []}) => {
   return (
 
     <section className="flash-left-grid">
@@ -21,4 +21,4 @@ const CategoryLeftSection = ({product = []}) => {
   )
 }
 
-export default CategoryLeftSection
+export default CategoryLeftPart

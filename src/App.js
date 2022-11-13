@@ -1,7 +1,6 @@
 import React, {useEffect, useState } from 'react'
 import './style.min.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-// import { ProductContext } from './contexts/contexts'
 import { ShoppingCartProvider } from './contexts/ShoppingCartContext'
 
 import HomeView from './views/HomeView';
@@ -14,13 +13,7 @@ import CompareView from './views/CompareView';
 import WishListView from './views/WishListView';
 import ShoppingCartView from './views/ShoppingCartView';
 import NotFoundView from './views/NotFoundView';
-// import { useEffect } from 'react';
-// import FooterSection from './sections/FooterSection';
-// import MainMenuSection from './sections/MainMenuSection';
 import { ProductContext, FeaturedProductsContext, TopProductsContext, LeftProductsContext } from './contexts/contexts';
-
-
-
 
 
 function App() {
@@ -57,32 +50,6 @@ function App() {
 
   }, [setProducts, setFeatured, setTopProducts, setLeftProducts])  
 
-// function App() {
-//   const [featuredProducts, setFeaturedProducts] = useState({
-//        all: [],
-//        featuredProducts: [],
-//        topProducts: []
-//   })
-//   useEffect(() => {
-//      const fetchAllProducts = async () => {
-//       let result = await fetch('https://win22-webapi.azurewebsites.net/api/products')
-//       setFeaturedProducts({...featuredProducts, all: await result.json()})
-//     }
-//     fetchAllProducts()
-
-//     const fetchFeaturedProducts = async () => {
-//       let result = await fetch('https://win22-webapi.azurewebsites.net/api/products?take=8')
-//       setFeaturedProducts({...featuredProducts, featuredProducts: await result.json()})
-//     }
-//     fetchFeaturedProducts()
-
-//     const fetchTopProducts = async () => {
-//       let result = await fetch('https://win22-webapi.azurewebsites.net/api/products?take=4')
-//       setFeaturedProducts({...featuredProducts, topProducts: await result.json()})
-//     }
-//     fetchTopProducts()
-    
-//   }, [setFeaturedProducts])
 
 
   return (

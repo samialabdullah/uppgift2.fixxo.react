@@ -1,13 +1,13 @@
 import React, {useContext, useState} from 'react'
-import FooterSection from '../sections/FooterSection'
-import MainMenuSection from '../sections/MainMenuSection'
-import ShowCaseSection from '../sections/ShowCaseSection'
-import ProductGridSection from '../sections/ProductGridSection'
+import FooterPart from '../Parts/FooterPart'
+import MainMenuPart from '../Parts/MainMenuPart'
+import ShowCasePart from '../Parts/ShowCasePart'
+import ProductGridPart from '../Parts/ProductGridPart'
 import { ProductContext } from '../contexts/contexts'
-import BannersSection from '../sections/BannersSection'
-import CategoryRightSection from '../sections/CategoryRightSection'
-import CategoryLeftSection from '../sections/CategoryLeftSection'
-import CompanyServiceSection from '../sections/CompanyServiceSection'
+import BannersPart from '../Parts/BannersPart'
+import CategoryRightPart from '../Parts/CategoryRightPart'
+import CategoryLeftPart from '../Parts/CategoryLeftPart'
+import CompanyServicePart from '../Parts/CompanyServicePart'
 import CustomerService from "../assets/images/customer-service-icon.svg";
 import CustomerSecurePayment from "../assets/images/secured-payment-icon.svg";
 import CustomerDelivery from "../assets/images/delivery-truck-icon.svg";
@@ -24,19 +24,19 @@ const HomeView = () => {
   return (
     <>
       
-      <MainMenuSection />
-      <ShowCaseSection />
-      <ProductGridSection  title="Featured Products" product={products}/>
-      <BannersSection />
-      <CategoryRightSection  product={topProducts}/>
-      <CategoryLeftSection   product={leftProducts}/> 
+      <MainMenuPart />
+      <ShowCasePart />
+      <ProductGridPart  title="Featured Products" product={products}/>
+      <BannersPart />
+      <CategoryRightPart  product={topProducts}/>
+      <CategoryLeftPart   product={leftProducts}/> 
       <div className='service-contacts container' >
-      <CompanyServiceSection companyicon={CustomerService} servicetitle={"Customer Support"} serviceinfo={"Village did removed enjoyed explain talking."}/>
-      <CompanyServiceSection companyicon={CustomerSecurePayment} servicetitle={"Customer Support"} serviceinfo={"Village did removed enjoyed explain talking."}/>
-      <CompanyServiceSection companyicon={CustomerDelivery} servicetitle={"Customer Support"} serviceinfo={"Village did removed enjoyed explain talking."}/>
-      <CompanyServiceSection companyicon={CustomerDelivery} servicetitle={"Customer Support"} serviceinfo={"Village did removed enjoyed explain talking."}/>
+      <CompanyServicePart companyicon={CustomerService} servicetitle={"Customer Support"} serviceinfo={"Village did removed enjoyed explain talking."}/>
+      <CompanyServicePart companyicon={CustomerSecurePayment} servicetitle={"Customer Support"} serviceinfo={"Village did removed enjoyed explain talking."}/>
+      <CompanyServicePart companyicon={CustomerDelivery} servicetitle={"Customer Support"} serviceinfo={"Village did removed enjoyed explain talking."}/>
+      <CompanyServicePart companyicon={CustomerDelivery} servicetitle={"Customer Support"} serviceinfo={"Village did removed enjoyed explain talking."}/>
       </div>
-      <FooterSection />
+      <FooterPart />
     </>
   )
 }

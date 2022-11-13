@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom'
 import RightImage from '../assets/images/img-1.svg'
 import LeftImage from '../assets/images/img-2.svg'
 
-const ShowCase = () => {
+const ShowCasePart = () => {
   return (
     
     <section className="showcase">
@@ -31,4 +31,4 @@ const ShowCase = () => {
   )
 }
 
-export default ShowCase
+export default ShowCasePart

@@ -1,6 +1,6 @@
 import React from 'react'
 
-const CompanyServiceSection = ({companyicon, servicetitle, serviceinfo}) => {
+const CompanyServicePart = ({companyicon, servicetitle, serviceinfo}) => {
   return (
     <div className="service-info">
       <button className="icon-button"> <img src={companyicon} alt={servicetitle}/></button>
@@ -10,4 +10,4 @@ const CompanyServiceSection = ({companyicon, servicetitle, serviceinfo}) => {
   )
 }
 
-export default CompanyServiceSection
+export default CompanyServicePart
