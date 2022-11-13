@@ -30,10 +30,10 @@ const HomeSight = () => {
       <CategoryThreePart  product={ThreeProducts}/>
       <CategoryFourPart   product={FourProducts}/> 
       <div className='service-contacts container' >
-      <CompanyServicePart companyicon={CustomerService} servicetitle={"Customer Support"} serviceinfo={"Village did removed enjoyed explain talking."}/>
-      <CompanyServicePart companyicon={CustomerSecurePayment} servicetitle={"Customer Support"} serviceinfo={"Village did removed enjoyed explain talking."}/>
-      <CompanyServicePart companyicon={CustomerDelivery} servicetitle={"Customer Support"} serviceinfo={"Village did removed enjoyed explain talking."}/>
-      <CompanyServicePart companyicon={CustomerDelivery} servicetitle={"Customer Support"} serviceinfo={"Village did removed enjoyed explain talking."}/>
+      <CompanyServicePart companyicon={CustomerService} servicetitle={"Customer Support"} serviceinfo={"Customer support tickets via email, phone. All in one place."}/>
+      <CompanyServicePart companyicon={CustomerSecurePayment} servicetitle={"Customer Payment"} serviceinfo={"We have safe system for purchases with us."}/>
+      <CompanyServicePart companyicon={CustomerDelivery} servicetitle={"CustomerDelivery"} serviceinfo={"We deliver orders for free within less than a day."}/>
+      <CompanyServicePart companyicon={CustomerDelivery} servicetitle={"CustomerDelivery"} serviceinfo={"You can return within a week."}/>
       </div>
       <FooterPart />
     </>
