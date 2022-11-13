@@ -8,17 +8,17 @@ const ShowCasePart = () => {
     
     <section className="showcase">
       <div className="container-fluid">
-        <img className="left-img" src={LeftImage} alt="showcase"/>
+        <img className="left-img" src={LeftImage} alt="showcaseimg"/>
         <div className="showcase-body"> 
-            <h2>SALE UP<br/>To 50% off</h2>
-            <p>online shopping free home delivery over $100</p>
+            <h2>SALE UP<br/>To 40% off</h2>
+            <p>online shopping free home delivery over $200</p>
             <NavLink className="btn-theme">
               <span className="corner-left"></span>
               <span className="corner-right"></span>
               SHOP NOW
             </NavLink>
         </div>
-        <img className="right-img" src={RightImage} alt="showcase"/>
+        <img className="right-img" src={RightImage} alt="showcaseimg"/>
       </div>
     </section>
 

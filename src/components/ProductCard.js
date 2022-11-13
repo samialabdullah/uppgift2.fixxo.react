@@ -4,9 +4,7 @@ import { useShoppingCart } from '../contexts/ShoppingCartContext'
 import { currencyFormater } from '../utilities/currencyFormatter'
 
 const ProductCard = ({product}) => {
-  
     const { incrementQuantity } = useShoppingCart()
-  
     return (
     <div className="col">
         <div className="card">
