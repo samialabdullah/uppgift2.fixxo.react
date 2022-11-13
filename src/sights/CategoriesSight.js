@@ -2,7 +2,7 @@ import React from 'react'
 import FooterPart from '../Parts/FooterPart'
 import MainMenuPart from '../Parts/MainMenuPart'
 
-const CategoriesView = () => {
+const CategoriesSight = () => {
   return (
     <>
       <MainMenuPart />
@@ -11,4 +11,4 @@ const CategoriesView = () => {
   )
 }
 
-export default CategoriesView
+export default CategoriesSight

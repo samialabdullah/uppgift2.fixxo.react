@@ -3,16 +3,16 @@ import './style.min.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { ShoppingCartProvider } from './contexts/ShoppingCartContext'
 
-import HomeView from './views/HomeView';
-import CategoriesView from './views/CategoriesView';
-import ProductsView from './views/ProductsView';
-import ProductDetailsView from './views/ProductDetailsView';
-import ContactsView from './views/ContactsView';
-import SearchView from './views/SearchView';
-import CompareView from './views/CompareView';
-import WishListView from './views/WishListView';
-import ShoppingCartView from './views/ShoppingCartView';
-import NotFoundView from './views/NotFoundView';
+import HomeSight from './sights/HomeSight';
+import CategoriesSight from './sights/CategoriesSight';
+import ProductsSight from './sights/ProductsSight';
+import ProductDetailsSight from './sights/ProductDetailsSight';
+import ContactsSight from './sights/ContactsSight';
+import SearchSight from './sights/SearchSight';
+import CompareSight from './sights/CompareSight';
+import WishListSight from './sights/WishListSight';
+import ShoppingCartSight from './sights/ShoppingCartSight';
+import NotFoundSight from './sights/NotFoundSight';
 import { ProductContext, FeaturedProductsContext, TopProductsContext, LeftProductsContext } from './contexts/ProductContexts';
 
 
@@ -60,17 +60,17 @@ function App() {
       <TopProductsContext.Provider value={topProducts}>
       <LeftProductsContext.Provider value={leftProducts}>
       <Routes>
-        <Route path="/" element={<HomeView />} />
-        <Route path="/categories" element={<CategoriesView />} />
-        <Route path="/products" element={<ProductsView />} />
-        <Route path="/products/:name" element={<ProductDetailsView />} />
-        <Route path="/contacts" element={<ContactsView />} />
-        <Route path="/search" element={<SearchView />} />
-        <Route path="/compare" element={<CompareView />} />
-        <Route path="/wishlist" element={<WishListView />} />
-        <Route path="/shoppingcart" element={<ShoppingCartView />} />
+        <Route path="/" element={<HomeSight />} />
+        <Route path="/categories" element={<CategoriesSight />} />
+        <Route path="/products" element={<ProductsSight />} />
+        <Route path="/products/:name" element={<ProductDetailsSight />} />
+        <Route path="/contacts" element={<ContactsSight />} />
+        <Route path="/search" element={<SearchSight />} />
+        <Route path="/compare" element={<CompareSight />} />
+        <Route path="/wishlist" element={<WishListSight />} />
+        <Route path="/shoppingcart" element={<ShoppingCartSight />} />
 
-        <Route path="*" element={<NotFoundView />} />
+        <Route path="*" element={<NotFoundSight />} />
       </Routes>
       </LeftProductsContext.Provider>
       </TopProductsContext.Provider>

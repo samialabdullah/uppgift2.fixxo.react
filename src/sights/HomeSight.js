@@ -14,7 +14,7 @@ import CustomerDelivery from "../assets/images/delivery-truck-icon.svg";
 import { FeaturedProductsContext, TopProductsContext, LeftProductsContext } from '../contexts/ProductContexts'
 
 
-const HomeView = () => {
+const HomeSight = () => {
   window.top.document.title = 'Fixxo.'
   const products = useContext(FeaturedProductsContext)
   const topProducts = useContext(TopProductsContext) 
@@ -41,4 +41,4 @@ const HomeView = () => {
   )
 }
 
-export default HomeView
+export default HomeSight

@@ -2,7 +2,7 @@ import React from 'react'
 import FooterPart from '../Parts/FooterPart'
 import MainMenuPart from '../Parts/MainMenuPart'
 
-const WishListView = () => {
+const SearchSight = () => {
   return (
     <>
       <MainMenuPart />
@@ -11,4 +11,4 @@ const WishListView = () => {
   )
 }
 
-export default WishListView
+export default SearchSight

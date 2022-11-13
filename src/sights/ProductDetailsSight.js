@@ -3,7 +3,7 @@ import { useParams } from 'react-router-dom'
 import FooterPart from '../Parts/FooterPart'
 import MainMenuPart from '../Parts/MainMenuPart'
 
-const ProductDetailsView = () => {
+const ProductDetailsSight = () => {
     const params = useParams()
   
     return (
@@ -17,4 +17,4 @@ const ProductDetailsView = () => {
   )
 }
 
-export default ProductDetailsView
+export default ProductDetailsSight

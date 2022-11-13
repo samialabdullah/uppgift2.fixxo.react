@@ -7,7 +7,7 @@ import { ProductContext } from '../contexts/ProductContexts'
 
 
 
-const ProductsView = () => {
+const ProductsSight = () => {
   const products = useContext(ProductContext) 
   return (
     <>
@@ -19,4 +19,4 @@ const ProductsView = () => {
   )
 }
 
-export default ProductsView
+export default ProductsSight

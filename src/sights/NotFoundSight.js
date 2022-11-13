@@ -2,7 +2,7 @@ import React from 'react'
 import FooterPart from '../Parts/FooterPart'
 import MainMenuPart from '../Parts/MainMenuPart'
 
-const NotFoundView = () => {
+const NotFoundSight = () => {
   return (
     <>
        <MainMenuPart />
@@ -17,4 +17,4 @@ const NotFoundView = () => {
   )
 }
 
-export default NotFoundView
+export default NotFoundSight

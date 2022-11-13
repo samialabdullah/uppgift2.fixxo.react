@@ -6,7 +6,7 @@ import MapPart from '../Parts/MapPart'
 import ContactFormPart from '../Parts/ContactFormPart'
 
 
-const ContactsView = () => {
+const ContactsSight = () => {
 
   window.top.document.title = 'Contacts | Fixxo.'
 
@@ -22,4 +22,4 @@ const ContactsView = () => {
   )
 }
 
-export default ContactsView
+export default ContactsSight
